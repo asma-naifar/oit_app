@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class splashscreen2 extends StatelessWidget {
-  splashscreen2({
+class Splashscreen2 extends StatelessWidget {
+  Splashscreen2({
     Key key,
   }) : super(key: key);
   @override

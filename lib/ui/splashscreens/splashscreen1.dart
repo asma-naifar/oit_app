@@ -1,9 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class splashscreen1 extends StatelessWidget {
-  splashscreen1({
+class Splashscreen1 extends StatelessWidget {
+  Splashscreen1({
     Key key,
   }) : super(key: key);
   @override
@@ -81,7 +81,8 @@ class splashscreen1 extends StatelessWidget {
                 height: 216.0,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: const AssetImage('assets/images/undraw_connected_8wvi.png'),
+                    image: const AssetImage(
+                        'assets/images/undraw_connected_8wvi.png'),
                     fit: BoxFit.fill,
                   ),
                 ),

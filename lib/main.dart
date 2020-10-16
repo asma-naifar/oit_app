@@ -1,24 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:oit_app/ui/splashscreens/Splashscreen1.dart';
+import 'package:oit_app/ui/accueil/accueil_view.dart';
+import 'package:oit_app/ui/splashscreens/introscreens_view.dart';
+import 'package:oit_app/ui/splashscreens/splashscreen0_view.dart';
 
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
+      themeMode: ThemeMode.light,
+      routes: {
+        "/accueil": (_) => new Accueil(),
+        "/intro": (_) => new IntroScreens(),
+      },
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Splashscreen1(),
-    );
-  }
-}
+

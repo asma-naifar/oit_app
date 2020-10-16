@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "984123183276",
+    "firebase_url": "https://oit-app-519cb.firebaseio.com",
+    "project_id": "oit-app-519cb",
+    "storage_bucket": "oit-app-519cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984123183276:android:bff8a5669380bfefc54f09",
+        "android_client_info": {
+          "package_name": "com.internship.oit_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984123183276-0m6mp7rmu8rkr85qtrjn3o5cqttp7j7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1DpxOpFAkolf2dMrjjOwnDP88Xd8-Gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984123183276-0m6mp7rmu8rkr85qtrjn3o5cqttp7j7f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
